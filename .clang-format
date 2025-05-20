@@ -1,0 +1,41 @@
+BasedOnStyle: Microsoft
+ColumnLimit: '125'
+Language: Cpp
+PointerAlignment: Left
+UseTab: Never
+IndentWidth: 4
+NamespaceIndentation: All
+IndentAccessModifiers: false
+AccessModifierOffset: -4
+SortIncludes: false
+FixNamespaceComments: true
+SpaceBeforeParens: ControlStatements
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Never
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: Empty # like this -> void foo() {}
+AlwaysBreakTemplateDeclarations: true
+
+BraceWrapping:
+  SplitEmptyFunction: false
+  SplitEmptyNamespace: false
+  SplitEmptyRecord: false
+  AfterCaseLabel: true
+
+# flow comments like this:
+# void foo(); // a very long comment that 
+#             // should be reflowed
+ReflowComments: true
+PenaltyBreakComment: 0
+
+# when exceeding column limit, move each arg/param on its own line
+BinPackArguments: false
+BinPackParameters: false
+AlignAfterOpenBracket: AlwaysBreak
+
+# case labels should have tabs from switch
+IndentCaseLabels: true
+
+# wrap initializer list
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
