@@ -29,7 +29,7 @@ struct KalmanFilter1D
     double Qₜ; // Qₜ: Measurement noise covariance
     double Kₜ; // Kₜ: Kalman gain
 
-    KalmanFilter1D() : μₜ(20.0), Σₜ(0.0), Aₜ(1.0), Rₜ(0.0), Cₜ(1.0), Qₜ(4.0), Kₜ(0.0) {}
+    KalmanFilter1D() : μₜ(20.0), Σₜ(0.0), Aₜ(1.0), Rₜ(4.0), Cₜ(1.0), Qₜ(4.0), Kₜ(0.0) {}
 
     double predict(double update)
     {
