@@ -1,3 +1,0 @@
-/home/tjeerd/kalman_test/build/CMakeFiles/kalman_imgui.dir
-/home/tjeerd/kalman_test/build/CMakeFiles/edit_cache.dir
-/home/tjeerd/kalman_test/build/CMakeFiles/rebuild_cache.dir
